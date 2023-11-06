@@ -126,7 +126,7 @@ export default async function page({ searchParams }: { searchParams: { guild: st
             </div>
             <div className='flex flex-col gap-4 bg-neutral-900 rounded-md p-4 w-full'>
                 <h3 className='text-xl font-bold'>Level-Up Rewards</h3>
-                <p className='font-semibold text-sm text-[0.75rem] text-neutral-400'>Where to send the level up message.</p>
+                <p className='font-semibold text-sm text-[0.75rem] text-neutral-400'>What role to apply for each level.</p>
                 <ElementList
                     element={
                         <div className='w-full flex gap-2'>
