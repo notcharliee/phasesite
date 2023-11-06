@@ -14,7 +14,6 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "autoprefixer": "10.4.14",
-    "codepauser": "^1.1.0",
     "discord-api-types": "^0.37.50",
     "mongoose": "^7.4.0",
     "next": "^13.4.16",

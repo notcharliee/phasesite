@@ -42,6 +42,9 @@ export default function rootLayout({ children }: { children: React.ReactNode }) 
             <body className='font-poppins min-h-screen bg-neutral-950 flex flex-col items-center justify-between'>
                 <div id='cursor-blob' className='bg-white h-3 w-3 fixed left-0 top-0 rounded-full opacity-0 z-50 duration-300 pointer-events-none scale-0'></div>
                 <div id='bg-grid' className='fixed -z-50 w-full h-full' style={{ backgroundImage: 'radial-gradient(circle, rgb(25, 25, 25) 15%, transparent 15%)', backgroundSize: '20px 20px' }}></div>
+                <div className='w-full p-1 bg-[#a400ff] font-semibold text-center text-white'>
+                    Phase v2.1.0 is coming soon! Bringing a new UI, new modules, and <Link href='/redirect/discord' className='font-bold'>more...</Link>
+                </div>
                 <header className='w-full max-w-[1536px] p-8 flex justify-between items-center'>
                     <Link href='/' className='flex items-center h-8'><Image src='/banner.svg' alt='Phase Banner' priority height={0} width={0} style={{ width: 'auto', height: 'auto' }}/></Link>
                     <div className='flex flex-wrap justify-center items-center gap-2 font-semibold text-sm text-[0.75rem] sm:gap-4 sm:text-base text-neutral-400'>
